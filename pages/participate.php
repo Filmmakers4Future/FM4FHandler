@@ -143,7 +143,7 @@
     <section class="page-section bg-dark text-left">
       <div class="container">
         <h3 class="text-white-50 mt-0">Website</h3>
-        <p class="text-white mt-0">The code for this website (excluding database and mailgun credentials) is on <a target="_blank" rel="noopener noreferrer" href="https://github.com/Filmmakers4Future/Website-Code">GitHub</a>. If you find a bug or have an idea on how to improve things, feel free to send us a pull request! If you do not know how to do this but still have a suggestion, please <a href="/contact">send us</a> a message.</p>
+        <p class="text-white mt-0">The code for this website (excluding database and mailgun credentials) is on <a target="_blank" rel="noopener noreferrer" href="https://github.com/Filmmakers4Future">GitHub</a>. If you find a bug or have an idea on how to improve things, feel free to send us a pull request! If you do not know how to do this but still have a suggestion, please <a href="/contact">send us</a> a message.</p>
       </div>
     </section>
 <?php
