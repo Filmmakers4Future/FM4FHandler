@@ -103,7 +103,7 @@
             <!-- Green Shooting Card -->
             <div class="col-xl-4 col-lg-5 col-md-10 col-sm-10 col-10 mx-5 mb-3">
               <figure class="figure">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.ffhsh.de/de/film_commission/gruener_drehpass.php"><img src="/files/logos/Gruener_Drehpass.svg" width="160px" class="figure-img img-fluid mb-3" alt="Green Shooting Card Logo"></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.ffhsh.de/de/film_commission/gruener_drehpass.php"><img src="/user/handlers/fm4fhandler/files/logos/Gruener_Drehpass.svg" width="160px" class="figure-img img-fluid mb-3" alt="Green Shooting Card Logo"></a>
                 <figcaption class="text-center text-white">Green Shooting Initiative of the Hamburg Film Fund in Germany.</figcaption>
                 <figcaption class="text-left text-white">
                 <ul>
@@ -120,7 +120,7 @@
             <!-- Green Film -->
             <div class="col-xl-4 col-lg-5 col-md-10 col-sm-10 col-10 mx-5 mb-3">
               <figure class="figure">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.green.film"><img src="/files/logos/green-film-logo.svg" width="200px" class="figure-img img-fluid mb-3" alt="Green Film Logo"></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.green.film"><img src="/user/handlers/fm4fhandler/files/logos/green-film-logo.svg" width="200px" class="figure-img img-fluid mb-3" alt="Green Film Logo"></a>
                 <figcaption class="text-center text-white">Italian rating system for sustainable film production.</figcaption>
                 <figcaption class="text-left text-white">
                 <ul>
