@@ -1,7 +1,3 @@
-<?php
-  require_once(__DIR__."/../../lib/consts.php");
-  require_once(__DIR__."/../../lib/functs.php");
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
