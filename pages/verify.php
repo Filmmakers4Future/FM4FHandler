@@ -90,7 +90,7 @@
       if ($link) {
         if ($admin) {
 ?>
-                <b>Signature is now online.</b>
+                <b>Signature is now online.</b><br>
                 At the moment there is nothing more to do for you.
 <?php
         } else {
