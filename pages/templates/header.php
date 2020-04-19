@@ -1,7 +1,6 @@
 <?php
   require_once(__DIR__."/../../lib/consts.php");
   require_once(__DIR__."/../../lib/functs.php");
-  require_once(__DIR__."/../../config/config.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
