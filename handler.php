@@ -29,22 +29,6 @@
       return true;
     }
 
-    public static function demands() {
-      // generate the static page
-      require_once(__DIR__."/pages/demands.php");
-
-      // we handled this call
-      return true;
-    }
-
-    public static function greenfilmmaking() {
-      // generate the static page
-      require_once(__DIR__."/pages/greenfilmmaking.php");
-
-      // we handled this call
-      return true;
-    }
-
     public static function index() {
       // generate the static page
       require_once(__DIR__."/pages/index.php");
@@ -53,33 +37,9 @@
       return true;
     }
 
-    public static function legal() {
-      // generate the static page
-      require_once(__DIR__."/pages/legal.php");
-
-      // we handled this call
-      return true;
-    }
-
     public static function newsletter() {
       // generate the static page
       require_once(__DIR__."/pages/newsletter.php");
-
-      // we handled this call
-      return true;
-    }
-
-    public static function participate() {
-      // generate the static page
-      require_once(__DIR__."/pages/participate.php");
-
-      // we handled this call
-      return true;
-    }
-
-    public static function privacy() {
-      // generate the static page
-      require_once(__DIR__."/pages/privacy.php");
 
       // we handled this call
       return true;
@@ -167,11 +127,6 @@
   require_once(__DIR__."/lib/functs.php");
 
   // register handlers for pages
-  Handlers::register(FM4FHandler::class, "demands",         "@^\/demands$@",         [GET], ADDSLASH);
-  Handlers::register(FM4FHandler::class, "greenfilmmaking", "@^\/greenfilmmaking$@", [GET], ADDSLASH);
-  Handlers::register(FM4FHandler::class, "legal",           "@^\/legal$@",           [GET], ADDSLASH);
-  Handlers::register(FM4FHandler::class, "participate",     "@^\/participate$@",     [GET], ADDSLASH);
-  Handlers::register(FM4FHandler::class, "privacy",         "@^\/privacy$@",         [GET], ADDSLASH);
   Handlers::register(FM4FHandler::class, "robots",          "@^\/robots.txt$@",      [GET], ADDSLASH);
   Handlers::register(FM4FHandler::class, "signatures",      "@^\/signatures$@",      [GET], ADDSLASH);
   Handlers::register(FM4FHandler::class, "sitemap",         "@^\/sitemap.xml$@",     [GET], ADDSLASH);

@@ -36,11 +36,11 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto my-2 my-lg-0">
             <li class="nav-item"><a class="nav-link<?= defined("FFF_PAGENAME") ? "" : " js-scroll-trigger" ?>" href="<?= defined("FFF_PAGENAME") ? "/" : "" ?>#statement">Statement</a></li>
-            <li class="nav-item"><a class="nav-link" href="/demands">Demands</a></li>
+            <li class="nav-item"><a class="nav-link" href="/demands/">Demands</a></li>
             <li class="nav-item"><a class="nav-link" href="/signatures">Signatures</a></li>
-            <li class="nav-item"><a class="nav-link" href="/greenfilmmaking">Green Filmmaking</a></li>
+            <li class="nav-item"><a class="nav-link" href="/greenfilmmaking/">Green Filmmaking</a></li>
             <li class="nav-item"><a class="nav-link" href="/videos">Videos</a></li>
-            <li class="nav-item"><a class="nav-link" href="/participate">Participate</a></li>
+            <li class="nav-item"><a class="nav-link" href="/participate/">Participate</a></li>
             <li class="nav-item"><a class="nav-link<?= defined("FFF_PAGENAME") ? "" : " js-scroll-trigger" ?>" href="<?= defined("FFF_PAGENAME") ? "/" : "" ?>#sign">Sign the Statement</a></li>
           </ul>
         </div>
