@@ -13,12 +13,12 @@
     <header class="masthead">
       <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="header_video">
-          <source data-src="<?= html(path2uri(__DIR__."/../files/videos/demo_h264.mp4")) ?>" type='video/mp4'>
+          <source data-src="/user/uploads/files/videos/demo_h264.mp4" type='video/mp4'>
         </video>
         <div class="container h-100">
           <div class="h-100 row align-items-center justify-content-center text-center">
             <div class="align-self-end col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-3 col-6">
-              <img class="img-fluid" id="main_logo" src="<?= html(path2uri(__DIR__."/../files/logos/logo_standalone.svg")) ?>">
+              <img class="img-fluid" id="main_logo" src="/user/uploads/files/logos/logo_standalone.svg">
             </div>
             <div class="col-lg-10">
               <h1 class="text-uppercase text-white font-weight-bold">Filmmakers for Future</h1>
@@ -136,14 +136,14 @@
         <div class="row justify-content-center">
           <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7 col-7 mx-5">
             <figure class="figure">
-              <img src="<?= html(path2uri(__DIR__."/../img/logos/FFF_Logo.png")) ?>" class="figure-img img-fluid" alt="Fridays for Future Logo">
+              <img src="/user/uploads/img/logos/FFF_Logo.png" class="figure-img img-fluid" alt="Fridays for Future Logo">
               <a target="_blank" rel="noopener noreferrer" href="https://fridaysforfuture.org"><figcaption class="text-center text-white">FridaysForFuture.org</figcaption></a>
               <a target="_blank" rel="noopener noreferrer" href="https://fridaysforfuture.org/events/map"><figcaption class="text-center text-white">Strike Map</figcaption></a>
             </figure>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7 col-7 mx-5">
             <figure class="figure">
-              <img src="<?= html(path2uri(__DIR__."/../files/logos/sf4_logo.svg")) ?>" width="500px" class="figure-img img-fluid" alt="Scientists for Future Logo">
+              <img src="/user/uploads/files/logos/sf4_logo.svg" width="500px" class="figure-img img-fluid" alt="Scientists for Future Logo">
               <a target="_blank" rel="noopener noreferrer" href="https://scientistsforfuture.org"><figcaption class="text-center text-white">Official Statement</figcaption></a>
               <a target="_blank" rel="noopener noreferrer" href="https://www.scientists4future.org/stellungnahme/facts-2019-03/"><figcaption class="text-center text-white">Climate Change Facts</figcaption></a>
             </figure>

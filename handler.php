@@ -7,7 +7,7 @@
     static legacy content until it is migrated to Urlaube.
 
     @package filmmakers4future\fm4fhandler
-    @version 0.1a0
+    @version 0.1a1
     @author  Yahe <hello@yahe.sh>
     @since   0.1a0
   */
