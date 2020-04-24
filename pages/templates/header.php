@@ -11,7 +11,7 @@
     <meta property="og:title" content="Filmmakers for Future<?= defined("FFF_PAGENAME") ? " - ".html(constant("FFF_PAGENAME")) : "" ?>">
     <meta property="og:description" content="<?= html(FFF_DESCRIPTION) ?>">
 
-    <title>Filmmakers for Future<?= defined("FFF_PAGENAME") ? " - ".html(constant("FFF_PAGENAME")) : "" ?></title>
+    <title><?= defined("FFF_PAGENAME") ? html(constant("FFF_PAGENAME"))." | " : "" ?>Filmmakers for Future</title>
 
     <!-- Apple Touch Icon -->
     <link rel="apple-touch-icon" href="/user/themes/fm4ftheme/img/app_icon.png">
