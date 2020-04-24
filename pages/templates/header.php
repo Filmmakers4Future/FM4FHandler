@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="<?= html(FFF_DESCRIPTION) ?>">
     <meta name="author" content="Filmmakers for Future">
-    <meta property="og:image" content="https://filmmakersforfuture.org/img/preview.jpg">
+    <meta property="og:image" content="https://filmmakersforfuture.org/user/uploads/img/preview.jpg">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://filmmakersforfuture.org<?= html($_SERVER['REQUEST_URI']) ?>">
     <meta property="og:title" content="Filmmakers for Future<?= defined("FFF_PAGENAME") ? " - ".html(constant("FFF_PAGENAME")) : "" ?>">
@@ -14,7 +14,7 @@
     <title><?= defined("FFF_PAGENAME") ? html(constant("FFF_PAGENAME"))." | " : "" ?>Filmmakers for Future</title>
 
     <!-- Apple Touch Icon -->
-    <link rel="apple-touch-icon" href="/user/themes/fm4ftheme/img/app_icon.png">
+    <link rel="apple-touch-icon" href="/user/uploads/img/app_icon.png">
     
     <!-- Fork Awesome Icons -->
     <link href="/user/themes/fm4ftheme/vendor/fork-awesome/css/fork-awesome.min.css" rel="stylesheet" type="text/css">
