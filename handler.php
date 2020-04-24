@@ -21,6 +21,32 @@
 
     // HANDLER FUNCTIONS
 
+/*
+    public static function index() {
+      $result = false;
+
+      // retrieve the index page content
+      $content = callcontent("index", false, false, null);
+      if (null !== $content) {
+        // set the content to be processed by plugins and the theme
+        Main::set(CONTENT,  $content);
+        Main::set(METADATA, new Content());
+
+        // handle pagination if the PAGE metadate is supported
+        Main::set(PAGE,      1);
+        Main::set(PAGECOUNT, 1);
+
+        // transfer the handling to the Themes class
+        Themes::run();
+
+        // we handled this page
+        $result = true;
+      }
+
+      return $result;
+    }
+*/
+
     public static function contact() {
       // generate the static page
       require_once(__DIR__."/pages/contact.php");
@@ -125,6 +151,9 @@
   // include library constants and functions
   require_once(__DIR__."/lib/consts.php");
   require_once(__DIR__."/lib/functs.php");
+
+  // register handler for index page
+  #Handlers::register(FM4FHandler::class, "index", "@^\/$@", [GET, POST], ADDSLASH);
 
   // register handlers for pages
   Handlers::register(FM4FHandler::class, "robots",          "@^\/robots.txt$@",      [GET], ADDSLASH);
