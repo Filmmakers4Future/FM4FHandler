@@ -1,4 +1,4 @@
-# Handler Changelog
+# Changelog
 
 ## 0.1a2 (26.04.2020)
 ### Feature
