@@ -6,7 +6,7 @@
     This file contains the Filmmakers for Future handler.
 
     @package filmmakers4future\fm4fhandler
-    @version 0.1a2
+    @version 0.1a3
     @author  Yahe <hello@yahe.sh>
     @since   0.1a0
   */
@@ -24,7 +24,8 @@
       $result = false;
 
       // retrieve the index page content
-      $content = callcontent("index", false, false, null);
+      $content = callcontent($_SERVER['REQUEST_URI']."index", false, false, null);
+
       if (null !== $content) {
         // set the content to be processed by plugins and the theme
         Main::set(CONTENT,  $content);
@@ -47,4 +48,4 @@
   }
 
   // register handler
-  Handlers::register(FM4FHandler::class, "index", "~^\/$~", [GET, POST], ADDSLASH);
+  Handlers::register(FM4FHandler::class, "index", "~^\/[a-zA-Z]{2}\/$~", [GET, POST], ADDSLASH);

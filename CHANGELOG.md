@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1a3 (06.01.2021)
+### Feature
+* adjusted handler to serve index page in language subfolder
+
 ## 0.1a2 (26.04.2020)
 ### Feature
 * rewrote handler to serve index page
