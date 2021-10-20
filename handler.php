@@ -24,7 +24,7 @@
       $result = false;
 
       // retrieve the index page content
-      $content = callcontent($_SERVER['REQUEST_URI']."index", false, false, null);
+      $content = callcontent(value(Main, URI)."index", false, false, null);
 
       if (null !== $content) {
         // set the content to be processed by plugins and the theme
