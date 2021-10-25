@@ -6,7 +6,7 @@
     This file contains the Filmmakers for Future handler.
 
     @package filmmakers4future\fm4fhandler
-    @version 0.1a3
+    @version 0.1a4
     @author  Yahe <hello@yahe.sh>
     @since   0.1a0
   */
@@ -24,7 +24,7 @@
       $result = false;
 
       // retrieve the index page content
-      $content = callcontent(value(Main, URI)."index", false, false, null);
+      $content = callcontent(value(Main::class, URI)."index", false, false, null);
 
       if (null !== $content) {
         // set the content to be processed by plugins and the theme
